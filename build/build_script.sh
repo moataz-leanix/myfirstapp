@@ -27,8 +27,8 @@ curl -X POST \
   -F dependencies=@"$TRAVIS_BUILD_DIR/build/dependencies.json" \
   -F manifest=@"$TRAVIS_BUILD_DIR/lx-manifest.yaml" \
   -F 'data={
-  "version": "1.1.0",
-  "stage": "dev",
+  "version": "1.2.0",
+  "stage": "stg",
   "dependencyManager": "NPM"
 }' \
   https://$HOST/services/cicd-connector/v2/deployment
