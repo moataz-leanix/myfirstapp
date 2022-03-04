@@ -2,3 +2,6 @@ id: myfirstapp
 name: myfirstapp
 self: https://github.com/moataz-leanix/myfirstapp
 owner: moataz.ahmed@leanix.net
+custom:
+  - category: legacy
+category: library
