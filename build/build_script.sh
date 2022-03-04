@@ -1,8 +1,8 @@
 # If MI_DEV_HOST isn't set in travis, a default value is used
-export HOST=${MI_DEV_HOST:-demo-us.leanix.net}
+export HOST=${VSM_DEV_HOST:-demo-us.leanix.net}
 
 # Check if token env variable is set in travis
-if [[ -z "${MI_DEV_TOKEN}" ]]; then
+if [[ -z "${VSM_DEV_TOKEN}" ]]; then
     echo "Please add your MI workspace token as an env variable 'MI_DEV_TOKEN' in travis."
     exit 1
 fi
