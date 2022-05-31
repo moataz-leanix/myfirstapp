@@ -3,3 +3,7 @@ name: myfirstapp
 self: https://github.com/moataz-leanix/myfirstapp
 owner: moataz.ahmed@leanix.net
 category: legacy
+apis:
+  - myAPI-01
+  - myAPI-02
+  - anotherAPI-999
