@@ -4,9 +4,9 @@ self: https://github.com/moataz-leanix/myfirstapp
 owner: moataz.ahmed@leanix.net
 category: legacy
 apis:
-  - name: myAPI-01
-    apiID: myAPI-01
-  - name: myAPI-02
-    apiID: myAPI-02
-  - name: anotherAPI-999
-    apiID: anotherAPI-999
+  - name: myAPI-07
+    apiID: myAPI-07
+  - name: myAPI-08
+    apiID: myAPI-08
+  - name: differentAPI-9999
+    apiID: differentAPI-9999
